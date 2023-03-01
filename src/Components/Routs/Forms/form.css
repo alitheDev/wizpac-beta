@@ -1,0 +1,119 @@
+h3 {
+  color: #000078 !important;
+}
+
+.brdr_btm {
+  border-bottom: none !important;
+}
+@media print {
+  .text {
+    font-size: 1.5vw !important;
+  }
+  .link {
+    width: 0.7em !important;
+    height: 0.3em !important;
+  }
+
+  .forminput {
+    height: 20px !important;
+  }
+
+  .printNone {
+    display: unset !important;
+  }
+
+  .onPrintNone {
+    display: none !important;
+  }
+
+  .bodyPadding {
+    padding: 25px !important;
+  }
+}
+
+.bodyPadding {
+  padding: 25px !important;
+}
+
+.onPrintNone {
+  display: unset;
+}
+
+.printNone {
+  display: none;
+}
+
+.bg-theme {
+  background-color: #e8e8e8 !important;
+}
+
+.App-header {
+  /* background-color: #c2c5c8 ; */
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  color: black;
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.table-light {
+  background-color: #c2c5c8 !important;
+}
+
+.borderr {
+  border: 2px solid #000078 !important;
+  border-radius: 10px;
+}
+
+.accordion-button {
+  background: none !important;
+  color: black !important;
+}
+
+.form_input,
+.hover_btn {
+  max-height: 30px !important;
+  font-size: small !important;
+  padding-top: 2px !important;
+  transition: transform 0.2s;
+}
+
+.hover_btn {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.hover_btn:hover {
+  transform: scale(1.04);
+  opacity: 0.7 !important;
+  filter: invert(0.7);
+}
+
+th,
+td {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  height: 25px !important;
+}
+h5 {
+  color: #000078 !important;
+}
+
+h4 {
+  color: #000078 !important;
+}
+
+.divclass {
+  z-index: 11;
+}
